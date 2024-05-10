@@ -1,7 +1,17 @@
+<div class="center" style="border: 1px solid ; justify-content: center; ">
 
+    
 <label for="email">Email:</label>
-<input id="email" type="text" [(ngModel)]="loginObj.email">
+<br>
+<input id="email" type="email" [(ngModel)]="loginObj.email">
+<br><br>
 <label for="pass">Password:</label>
-<input id="pass" type="text" [(ngModel)]="loginObj.password">
-<button (click)="onLogin()">sign-up</button>
+<br><br>
 
+<input id="pass" type="password" [(ngModel)]="loginObj.password">
+<br><br>
+<button type="button" class="btn btn-primary" (click)="onLogin()">Login</button>
+
+
+
+</div>

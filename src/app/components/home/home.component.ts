@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  title="List Of Users"
+  title="List Of Login Students"
   users:any
   ngOnInit(){
     const storedUsers=localStorage.getItem("signUpUsers")
